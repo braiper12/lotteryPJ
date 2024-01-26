@@ -44,7 +44,7 @@
       </div> 
     </main>
 
-   <script src="https://localhost/RIFASJEISON/assets/login.js"></script>
+   <script src="https://localhost/loteriasJP/assets/login.js"></script>
    
     <!-- place footer here -->
  
