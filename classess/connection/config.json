@@ -1,0 +1,10 @@
+[
+    {
+     "server":"localhost",
+     "user":"root",
+     "password":"",
+     "database":"sistemarifa",   
+     "port" : "3306"
+       
+    }
+]

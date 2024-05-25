@@ -1,0 +1,92 @@
+ *{
+    font-family: tahoma;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-size: cover ;
+    background-image: url(https://st.depositphotos.com/1000826/2069/i/450/depositphotos_20692479-stock-photo-green-nature-background.jpg) ;
+
+}
+
+header {
+    font-size: 1rem;
+    color: #064517;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: transparent;
+}
+
+#login-form {
+    
+    border: 3px solid ;
+    border-radius: 1rem;
+    border-color: rgb(1, 4, 1);
+    box-shadow: transparent;
+    max-width: 300px;
+    background-color: transparent;
+    backdrop-filter: blur(1rem);
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+   
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    
+}
+
+label {
+    position: relative;
+    top: 50%;
+    left: 5px;
+    color: #000000;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top:-5px;
+}
+
+.inputbox, option{
+    background: transparent;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    right: 8px;
+    top: 20px;
+    margin: 0.5rem;
+
+}
+.btn{
+   
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.4s ease;
+    right: 18px;
+    height: 20px;
+    outline: none;
+}
