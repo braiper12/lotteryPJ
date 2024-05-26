@@ -42,6 +42,8 @@
          
         </form>      
       </div> 
+
+      <a>hola mi nombre es gerardo perez</a>
     </main>
 
    <script src="https://localhost/loteriasJP/assets/login.js"></script>
